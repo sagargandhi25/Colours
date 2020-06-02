@@ -119,7 +119,7 @@ public class MainActivity extends AppCompatActivity {
             try {
                     int rando = (int) (Math.random() * 5);
                     root.setBackgroundColor(color);
-                  //  timeTv.setText(hexaTime + "-" + names[rando]);
+                    timeTv.setText(hexaTime + "-" + names[rando]);
 
             }catch (Exception e){
                     e.printStackTrace();
